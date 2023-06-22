@@ -1,0 +1,11 @@
+{
+  "appId": "dev.mixedmachine.speculo",
+  "appName": "Speculo App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "url": "http://10.0.0.169:9500"
+  }
+}

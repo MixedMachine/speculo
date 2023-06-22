@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Speculo App</string>
+    <string name="title_activity_main">Speculo App</string>
+    <string name="package_name">dev.mixedmachine.speculo</string>
+    <string name="custom_url_scheme">dev.mixedmachine.speculo</string>
+</resources>
