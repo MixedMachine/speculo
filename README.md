@@ -15,5 +15,9 @@ Speculo is an application that is intended to be used as a mirror to yourself. Y
   - [ ] The ability to add groups of tasks
       - i.e. a group called `morning` that has the tasks `brush teeth`, `shower`, `eat breakfast`, etc.
       or a group called `work` that has the tasks `check email`, `check slack`, `check github`, etc.
+- [ ] Add Help section
+  - [ ] Add a help section that explains how to use the app
+- [ ] Add Settings section
+  - [ ] Add a settings section that allows you to change the theme of the app
 
 \* *The difference between the "tasks" section and the "routine" section is that the tasks section is for one-off tasks that you want to do, and the routines section is for groups of tasks that you want to do consistently to build habits.*
