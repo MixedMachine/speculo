@@ -2,7 +2,10 @@
   <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card bg-white text-black">
       <q-card-section>
-        <q-list>
+        <q-list
+          bordered
+          separator
+        >
           <q-item>
             <q-item-section>
               <q-input
