@@ -7,12 +7,14 @@ Speculo is an application that is intended to be used as a mirror to yourself. Y
 
 ## TODOs
 - [ ] Add the Core section
+  - [ ] Add self image card
+  - [ ] Add core values card
   - [ ] Add Strengths card
   - [ ] Add Weaknesses card
   - [ ] Add Good Qualities card
   - [ ] Add Bad Qualities card
-- [ ] Add Routines section*
-  - [ ] The ability to add groups of tasks
+- [x] Add Routines section*
+  - [x] The ability to add groups of tasks
       - i.e. a group called `morning` that has the tasks `brush teeth`, `shower`, `eat breakfast`, etc.
       or a group called `work` that has the tasks `check email`, `check slack`, `check github`, etc.
 - [ ] Add Help section

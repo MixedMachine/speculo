@@ -1,10 +1,12 @@
 <template>
   <q-page
-    class="flex flex-center"
+    class="flex align-center justify-center"
     padding
   >
-    <div class="text-h6">
-      Routines
-    </div>
+    <RoutineGroups />
   </q-page>
 </template>
+
+<script setup>
+import RoutineGroups from '../components/RoutineGroups.vue'
+</script>

@@ -51,8 +51,17 @@
       >
         Goals
       </q-item-label>
+      <div
+        v-if="loading"
+        class="q-gutter-y-md"
+      >
+        <q-skeleton bordered />
+        <q-skeleton bordered />
+        <q-skeleton bordered />
+      </div>
       <q-item
         v-for="goal in goals"
+        v-else
         :key="goal.id"
       >
         <q-item-section avatar>
@@ -151,6 +160,7 @@ const supabase = useClient()
 const userStore = useUserStore()
 const $q = useQuasar()
 const editForm = ref(false)
+const loading = ref(true)
 const editGoalModel = ref(
   {
     id: -1,
@@ -195,6 +205,7 @@ function createGoal () {
 }
 
 async function getGoals () {
+  loading.value = true
   const { data, error } = await supabase
     .from('goals')
     .select('*')
@@ -206,6 +217,8 @@ async function getGoals () {
   } else {
     goals.value = data
   }
+
+  loading.value = false
 }
 
 function editGoalForm (id) {
